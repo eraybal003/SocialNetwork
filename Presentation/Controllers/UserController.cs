@@ -3,7 +3,7 @@ using Application.Features;
 using Microsoft.AspNetCore.Mvc;
 namespace Presentation.Controllers;
 
-[Route("api/[controller]")]
+[Route("api/[controller]/[action]")]
 [ApiController]
 public class UserController(UserService userService) : ControllerBase
 {
